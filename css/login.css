@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    color: #fff;
+    display: block;
+}
+
+.body-LogIn{
+    height: 100vh;
+    background: linear-gradient(to right top, #24242473, #24242473), url(https://image.tmdb.org/t/p/original/5XHUgVxoxnldA32wjtYrFGoHWyj.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-LogIn{
+    color: #fff;
+    height: 8vh;
+    padding: 30px;
+}
+
+.app-Logo{
+    text-decoration: none;
+    color: #DDDDFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+a{
+    color: #DDDDFF;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #DDDDFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+.section-LogIn{
+    background-color: rgb(42, 42, 42, 0.2);
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 1.2rem;
+    border: solid 2px #DD0088;
+}
+
+.form{
+    width: 100%;
+    padding: 40px;
+}
+
+.titulo-LogIn{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: solid 2px #DD0088;
+    background-color: rgb(42, 42, 42, 0.5);
+    outline: none;
+    color: #fff;
+}
+
+#password{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: solid 2px #DD0088;
+    background-color: rgb(42, 42, 42, 0.5);
+    outline: none;
+    color: #fff;
+}
+
+.button{
+    width: 90%;
+    box-sizing: content-box;
+    color: #fff;
+    background-color: #DD0088;
+    border: 2px solid #DD0088;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.error-Text{
+    color: #ff9592;
+}
